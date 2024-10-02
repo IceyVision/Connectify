@@ -1,0 +1,36 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+./frontend/connectify/node_modules
+./frontend/connectify/.pnp
+./frontend/connectify/.pnp.js
+./frontend/connectify/.yarn/install-state.gz
+
+# testing
+./frontend/connectify/coverage
+
+# next.js
+./frontend/connectify/.next/
+./frontend/connectify/out/
+
+# production
+./frontend/connectify/build
+
+# misc
+./frontend/connectify/.DS_Store
+./frontend/connectify/*.pem
+
+# debug
+./frontend/connectify/npm-debug.log*
+./frontend/connectify/yarn-debug.log*
+./frontend/connectify/yarn-error.log*
+
+# local env files
+./frontend/connectify/.env*.local
+
+# vercel
+./frontend/connectify/.vercel
+
+# typescript
+./frontend/connectify/*.tsbuildinfo
+./frontend/connectify/next-env.d.ts
